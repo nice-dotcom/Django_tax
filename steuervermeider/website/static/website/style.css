@@ -1,0 +1,15 @@
+body {
+    color: white;
+    background-image: url('./sunset.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+    #background-color: blue;
+}
+
+.text-body-emphasis {
+    color: #FFFFFF!important;
+}

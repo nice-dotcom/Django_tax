@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>Frage {{ question_number }}:</h1>
+<p>{{ question.text }}</p>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Weiter</button>
+</form>
+</body>
+</html>
+
